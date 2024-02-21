@@ -12,7 +12,7 @@ fi
 MESSAGE=$1
 CHUNK_SIZE=${2:-1000}
 
-chunkCommand="git ls-files --others --exclude-standard"
+chunkCommand="git ls-files --others --exclude-standard docs"
 totalChunks=$(( $($chunkCommand | wc -l) / CHUNK_SIZE + 1 ))
 i=0
 while [ -n "$($chunkCommand)" ]; do
