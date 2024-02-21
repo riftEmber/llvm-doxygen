@@ -21,7 +21,7 @@ cd llvm
 mkdir build
 cd build
 
-cmake -DLLVM_ENABLE_DOXYGEN=ON -DLLVM_BUILD_DOCS=ON ..
+cmake -DCMAKE_BUILD_TYPE=Release -DLLVM_ENABLE_DOXYGEN=ON -DLLVM_BUILD_DOCS=ON ..
 make doxygen -j8
 
 cp -r docs/doxygen/html ../../../llvm-doxygen-html-$LLVM_VERSION
