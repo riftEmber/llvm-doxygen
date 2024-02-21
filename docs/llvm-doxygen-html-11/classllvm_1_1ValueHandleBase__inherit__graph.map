@@ -1,0 +1,40 @@
+<map id="llvm::ValueHandleBase" name="llvm::ValueHandleBase">
+<area shape="rect" id="Node000001" title="This is the common base class of value handles." alt="" coords="5,286,162,312"/>
+<area shape="rect" id="Node000002" href="$classllvm_1_1AssertingVH.html" title=" " alt="" coords="588,93,723,134"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,272,146,215,176,184,209,157,256,126,294,107,336,94,390,82,442,76,494,77,588,92,587,98,493,83,442,81,391,87,337,99,296,112,258,131,213,161,180,188,150,219,104,276"/>
+<area shape="rect" id="Node000003" href="$classllvm_1_1AssertingVH.html" title=" " alt="" coords="588,5,723,46"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="92,271,109,234,135,188,168,143,209,105,255,78,304,57,355,41,407,30,505,20,587,19,588,24,506,25,407,36,356,46,306,62,257,83,213,109,172,147,139,191,114,236,97,273"/>
+<area shape="rect" id="Node000004" href="$classllvm_1_1AssertingVH.html" title=" " alt="" coords="588,244,723,285"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="176,303,335,307,426,304,516,296,587,282,588,287,517,302,426,309,335,312,176,308"/>
+<area shape="rect" id="Node000005" href="$classllvm_1_1AssertingVH.html" title=" " alt="" coords="588,173,723,214"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="176,288,363,268,452,256,515,242,539,230,586,212,588,217,541,235,517,247,453,261,364,274,177,294"/>
+<area shape="rect" id="Node000006" href="$classllvm_1_1AssertingVH.html" title="Value handle that asserts if the Value is deleted." alt="" coords="221,171,356,211"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="122,276,247,210,249,214,124,281"/>
+<area shape="rect" id="Node000007" href="$classllvm_1_1CallbackVH.html" title="Value handle with callbacks on RAUW and destruction." alt="" coords="227,433,350,459"/>
+<area shape="poly" id="edge10_Node000001_Node000007" title=" " alt="" coords="116,318,271,430,268,435,113,323"/>
+<area shape="rect" id="Node000016" href="$classllvm_1_1WeakTrackingVH.html" title="Value handle that is nullable, but tries to track the Value." alt="" coords="211,482,366,508"/>
+<area shape="poly" id="edge20_Node000001_Node000016" title=" " alt="" coords="100,324,143,396,175,435,213,469,232,479,229,484,209,473,171,439,139,399,95,327"/>
+<area shape="rect" id="Node000017" href="$classllvm_1_1WeakVH.html" title="A nullable Value handle that is nullable." alt="" coords="236,532,341,557"/>
+<area shape="poly" id="edge21_Node000001_Node000017" title=" " alt="" coords="95,325,111,368,136,420,169,473,190,497,213,518,237,531,234,536,209,522,186,501,165,476,131,422,106,370,90,327"/>
+<area shape="poly" id="edge6_Node000006_Node000002" title=" " alt="" coords="371,172,516,142,587,126,588,132,517,147,372,177"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="332,160,389,127,495,80,592,44,594,49,497,85,392,132,334,165"/>
+<area shape="poly" id="edge8_Node000006_Node000004" title=" " alt="" coords="372,207,391,211,588,250,587,255,390,217,371,212"/>
+<area shape="poly" id="edge9_Node000006_Node000005" title=" " alt="" coords="371,189,587,191,587,196,371,194"/>
+<area shape="rect" id="Node000008" href="$classllvm_1_1PoisoningVH.html" title=" " alt="" coords="945,339,1082,379"/>
+<area shape="poly" id="edge11_Node000007_Node000008" title=" " alt="" coords="328,423,389,397,463,370,540,354,646,341,730,338,921,347,944,349,944,354,921,352,730,343,647,346,541,359,465,375,391,401,330,428"/>
+<area shape="rect" id="Node000009" href="$classllvm_1_1IVStrideUse.html" title="IVStrideUse &#45; Keep track of one use of a strided induction variable." alt="" coords="593,433,718,459"/>
+<area shape="poly" id="edge12_Node000007_Node000009" title=" " alt="" coords="365,443,593,443,593,448,365,448"/>
+<area shape="rect" id="Node000010" href="$classllvm_1_1MMIAddrLabelMapCallbackPtr.html" title=" " alt="" coords="540,482,771,508"/>
+<area shape="poly" id="edge13_Node000007_Node000010" title=" " alt="" coords="366,453,555,479,554,484,365,458"/>
+<area shape="rect" id="Node000011" href="$classllvm_1_1PoisoningVH.html" title="Value handle that poisons itself if the Value is deleted." alt="" coords="587,368,724,409"/>
+<area shape="poly" id="edge14_Node000007_Node000011" title=" " alt="" coords="365,429,390,424,586,395,587,400,391,430,366,434"/>
+<area shape="rect" id="Node000012" href="$classllvm_1_1SCEVUnknown.html" title="This means that we are dealing with an entirely unknown SCEV value, and only represent it as its LLVM..." alt="" coords="583,532,728,557"/>
+<area shape="poly" id="edge16_Node000007_Node000012" title=" " alt="" coords="351,461,367,467,391,479,465,502,541,518,588,528,587,533,540,523,464,507,389,484,365,472,349,466"/>
+<area shape="rect" id="Node000013" href="$classllvm_1_1ValueMapCallbackVH.html" title=" " alt="" coords="565,581,746,622"/>
+<area shape="poly" id="edge17_Node000007_Node000013" title=" " alt="" coords="364,464,368,468,378,481,381,494,384,506,392,517,428,541,461,551,496,557,541,567,578,578,577,583,540,572,495,562,459,557,425,546,388,521,379,508,376,495,373,483,364,472,360,468"/>
+<area shape="rect" id="Node000014" href="$classllvm_1_1bfi__detail_1_1BFICallbackVH_3_01BasicBlock_00_01BFIImplT_01_4.html" title=" " alt="" coords="559,647,752,687"/>
+<area shape="poly" id="edge18_Node000007_Node000014" title=" " alt="" coords="365,464,368,468,377,481,382,493,382,518,381,542,385,553,392,565,425,595,458,609,495,618,541,631,579,644,577,649,540,636,494,623,456,614,422,600,388,569,380,555,376,542,376,518,376,494,373,483,364,471,361,468"/>
+<area shape="rect" id="Node000015" href="$structllvm_1_1cflaa_1_1FunctionHandle.html" title=" " alt="" coords="565,712,746,753"/>
+<area shape="poly" id="edge19_Node000007_Node000015" title=" " alt="" coords="364,464,368,468,381,489,386,509,382,549,378,588,381,608,392,628,428,663,472,689,519,708,566,719,564,724,518,713,470,694,425,668,388,631,376,609,372,588,377,548,381,510,377,491,364,471,361,467"/>
+<area shape="poly" id="edge15_Node000011_Node000008" title=" " alt="" coords="739,379,944,362,944,367,739,384"/>
+</map>
