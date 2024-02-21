@@ -18,5 +18,8 @@ i=0
 while [ -n "$($chunkCommand)" ]; do
   eval "$chunkCommand" | head -n $CHUNK_SIZE | xargs git add
   git commit -m "$MESSAGE (chunk $((++i))/$totalChunks)"
-  git push
 done
+
+# adapted from https://docs.github.com/en/get-started/using-git/troubleshooting-the-2-gb-push-limit#splitting-up-a-large-push
+step_commits=$(git log --oneline --reverse refs/remotes/origin/main..refs/heads/main)
+echo "$step_commits" | while read commit message; do git push origin $commit:refs/heads/main; done
