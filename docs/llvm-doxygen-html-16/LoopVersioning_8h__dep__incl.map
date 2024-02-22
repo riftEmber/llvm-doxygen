@@ -1,0 +1,54 @@
+<map id="include/llvm/Transforms/Utils/LoopVersioning.h" name="include/llvm/Transforms/Utils/LoopVersioning.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="667,5,828,46"/>
+<area shape="rect" id="Node000002" href="$PassBuilder_8cpp.html" title="This file provides the implementation of the PassBuilder based on our static pass registry as well as..." alt="" coords="5,102,186,127"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="653,39,444,63,197,97,157,104,156,98,196,91,443,58,652,34"/>
+<area shape="rect" id="Node000003" href="$LoopDistribute_8cpp.html" title=" " alt="" coords="210,94,355,135"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="653,45,367,97,356,99,355,94,366,91,652,40"/>
+<area shape="rect" id="Node000004" href="$LoopLoadElimination_8cpp.html" title=" " alt="" coords="378,94,549,135"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="669,53,529,96,527,91,668,48"/>
+<area shape="rect" id="Node000005" href="$LoopVersioningLICM_8cpp.html" title=" " alt="" coords="573,94,744,135"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="719,58,680,95,677,92,715,54"/>
+<area shape="rect" id="Node000006" href="$LoopVersioning_8cpp.html" title=" " alt="" coords="769,94,908,135"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="780,54,820,92,816,95,777,58"/>
+<area shape="rect" id="Node000007" href="$LoopVectorize_8cpp.html" title=" " alt="" coords="1147,449,1311,489"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="843,43,885,63,921,92,939,118,947,143,947,202,947,293,949,327,956,352,970,375,993,399,1028,423,1067,440,1108,452,1147,459,1146,465,1107,457,1066,445,1026,427,990,403,966,378,951,355,944,327,942,293,942,202,942,144,935,121,918,96,882,67,841,48"/>
+<area shape="rect" id="Node000008" href="$VPlan_8cpp.html" title="This is the LLVM vectorization plan." alt="" coords="1907,360,2071,401"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="843,28,1156,43,1561,72,1756,92,1925,117,1995,131,2051,146,2093,163,2119,181,2127,203,2132,238,2130,278,2118,313,2091,342,2057,362,2054,357,2087,338,2113,311,2125,277,2127,238,2122,204,2115,184,2091,167,2050,151,1993,136,1924,122,1755,98,1560,77,1155,48,843,33"/>
+<area shape="rect" id="Node000009" href="$VPlan_8h.html" title="This file contains the declarations of the Vectorization Plan base classes:" alt="" coords="1401,94,1564,135"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="843,36,1400,101,1400,106,842,41"/>
+<area shape="poly" id="edge14_Node000009_Node000007" title=" " alt="" coords="1387,126,1355,134,1325,146,1296,162,1272,184,1261,204,1252,234,1240,309,1234,388,1232,448,1226,448,1228,388,1235,309,1247,232,1256,202,1268,181,1293,158,1322,141,1354,129,1386,121"/>
+<area shape="poly" id="edge16_Node000009_Node000008" title=" " alt="" coords="1579,117,1723,124,1885,137,2022,155,2069,167,2095,181,2103,202,2107,237,2105,277,2094,313,2070,342,2040,362,2037,357,2066,338,2089,311,2100,276,2102,237,2098,203,2091,184,2067,172,2021,161,1884,142,1723,130,1579,122"/>
+<area shape="rect" id="Node000010" href="$LoopVectorizationPlanner_8h.html" title="This file provides a LoopVectorizationPlanner class." alt="" coords="1033,271,1217,312"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="1387,130,1307,150,1266,166,1228,185,1200,205,1176,228,1140,273,1136,269,1172,224,1197,201,1225,180,1264,161,1305,145,1386,125"/>
+<area shape="rect" id="Node000011" href="$VPRecipeBuilder_8h.html" title=" " alt="" coords="1003,360,1167,401"/>
+<area shape="poly" id="edge15_Node000009_Node000011" title=" " alt="" coords="1386,131,1282,152,1227,167,1174,185,1085,215,1052,235,1038,251,1023,273,1019,284,1018,295,1027,318,1043,339,1061,358,1058,362,1039,343,1022,320,1013,296,1014,283,1018,270,1033,248,1049,231,1083,210,1172,180,1226,162,1281,147,1385,126"/>
+<area shape="rect" id="Node000013" href="$VPlanCFG_8h.html" title=" " alt="" coords="1519,183,1683,223"/>
+<area shape="poly" id="edge17_Node000009_Node000013" title=" " alt="" coords="1522,141,1576,180,1572,184,1519,146"/>
+<area shape="rect" id="Node000014" href="$VPlanDominatorTree_8h.html" title="This file implements dominator tree analysis for a single level of a VPlan&#39;s H&#45;CFG." alt="" coords="1581,271,1744,312"/>
+<area shape="poly" id="edge26_Node000009_Node000014" title=" " alt="" coords="1485,149,1492,186,1499,205,1510,222,1542,249,1581,268,1579,273,1539,254,1505,225,1494,207,1487,188,1480,150"/>
+<area shape="rect" id="Node000017" href="$VPlanVerifier_8cpp.html" title="This file defines the class VPlanVerifier, which contains utility functions to check the consistency ..." alt="" coords="1917,271,2080,312"/>
+<area shape="poly" id="edge32_Node000009_Node000017" title=" " alt="" coords="1579,117,1718,125,1872,138,2003,156,2047,167,2072,181,2079,193,2081,206,2071,230,2051,253,2028,273,2025,269,2048,250,2067,228,2076,205,2074,194,2068,185,2045,172,2002,161,1872,143,1718,130,1579,122"/>
+<area shape="rect" id="Node000018" href="$VPlanRecipes_8cpp.html" title="This file contains implementations for different VPlan recipes." alt="" coords="1707,183,1871,223"/>
+<area shape="poly" id="edge27_Node000009_Node000018" title=" " alt="" coords="1567,137,1720,180,1718,185,1565,142"/>
+<area shape="rect" id="Node000019" href="$VPlanSLP_8cpp.html" title=" " alt="" coords="1895,183,2059,223"/>
+<area shape="poly" id="edge28_Node000009_Node000019" title=" " alt="" coords="1579,128,1883,180,1895,182,1894,188,1882,185,1578,134"/>
+<area shape="rect" id="Node000020" href="$VPlanTransforms_8h.html" title="This file provides utility VPlan to VPlan transformations." alt="" coords="1282,183,1445,223"/>
+<area shape="poly" id="edge29_Node000009_Node000020" title=" " alt="" coords="1445,146,1392,184,1389,180,1442,141"/>
+<area shape="poly" id="edge10_Node000010_Node000007" title=" " alt="" coords="1154,322,1180,359,1206,406,1224,447,1219,449,1201,408,1176,361,1150,325"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="1112,327,1096,361,1091,358,1107,325"/>
+<area shape="rect" id="Node000012" href="$VPlanHCFGBuilder_8cpp.html" title="This file implements the construction of a VPlan&#45;based Hierarchical CFG (H&#45;CFG) for an incoming IR." alt="" coords="1363,449,1527,489"/>
+<area shape="poly" id="edge13_Node000010_Node000012" title=" " alt="" coords="1174,317,1410,446,1408,451,1172,322"/>
+<area shape="poly" id="edge12_Node000011_Node000007" title=" " alt="" coords="1131,406,1198,446,1195,451,1128,411"/>
+<area shape="poly" id="edge18_Node000013_Node000008" title=" " alt="" coords="1661,227,1757,269,1948,357,1946,362,1754,274,1659,232"/>
+<area shape="poly" id="edge19_Node000013_Node000014" title=" " alt="" coords="1625,234,1650,269,1646,272,1621,237"/>
+<area shape="rect" id="Node000016" href="$VPlanTransforms_8cpp.html" title="This file implements a set of utility VPlan to VPlan transformations." alt="" coords="1393,271,1556,312"/>
+<area shape="poly" id="edge24_Node000013_Node000016" title=" " alt="" coords="1562,234,1504,273,1501,269,1559,230"/>
+<area shape="poly" id="edge25_Node000013_Node000017" title=" " alt="" coords="1698,223,1917,270,1915,275,1697,228"/>
+<area shape="poly" id="edge20_Node000014_Node000008" title=" " alt="" coords="1751,314,1915,357,1914,362,1750,319"/>
+<area shape="rect" id="Node000015" href="$VPlanHCFGBuilder_8h.html" title="This file defines the VPlanHCFGBuilder class which contains the public interface (buildHierarchicalCF..." alt="" coords="1393,360,1556,401"/>
+<area shape="poly" id="edge21_Node000014_Node000015" title=" " alt="" coords="1607,321,1518,362,1516,357,1605,316"/>
+<area shape="poly" id="edge22_Node000015_Node000007" title=" " alt="" coords="1406,408,1286,451,1284,446,1404,403"/>
+<area shape="poly" id="edge23_Node000015_Node000012" title=" " alt="" coords="1465,416,1454,449,1449,447,1460,414"/>
+<area shape="poly" id="edge30_Node000020_Node000007" title=" " alt="" coords="1353,238,1319,314,1275,402,1245,450,1240,447,1271,399,1315,312,1348,236"/>
+<area shape="poly" id="edge31_Node000020_Node000016" title=" " alt="" coords="1401,230,1451,269,1448,273,1398,235"/>
+</map>
