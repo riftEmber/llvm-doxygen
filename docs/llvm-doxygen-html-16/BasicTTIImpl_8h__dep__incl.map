@@ -1,0 +1,109 @@
+<map id="include/llvm/CodeGen/BasicTTIImpl.h" name="include/llvm/CodeGen/BasicTTIImpl.h">
+<area shape="rect" id="Node000001" title="This file provides a helper that implements much of the TTI interface in terms of the target&#45;independ..." alt="" coords="4061,5,4210,46"/>
+<area shape="rect" id="Node000002" href="$BasicTargetTransformInfo_8cpp.html" title="This file provides the implementation of a basic TargetTransformInfo pass predicated on the target ab..." alt="" coords="295,94,520,135"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="4046,30,3393,32,2375,41,1830,49,1314,61,869,76,533,97,521,98,520,92,532,91,868,71,1314,55,1830,44,2375,35,3393,27,4046,24"/>
+<area shape="rect" id="Node000003" href="$LLVMTargetMachine_8cpp.html" title=" " alt="" coords="545,102,785,127"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="4046,30,3436,34,2497,45,1522,65,1112,79,804,97,742,104,741,98,803,91,1112,74,1522,60,2497,40,3436,29,4046,25"/>
+<area shape="rect" id="Node000004" href="$AArch64TargetTransformInfo_8cpp.html" title=" " alt="" coords="5,183,223,223"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="4046,30,3352,33,2312,43,1792,51,1340,63,1008,78,903,87,848,97,833,105,824,116,814,127,798,137,745,152,677,162,518,173,358,178,234,185,224,187,223,181,234,180,358,173,518,168,677,157,744,147,796,132,810,123,820,112,830,101,846,91,903,81,1008,72,1340,57,1792,46,2312,37,3352,28,4046,25"/>
+<area shape="rect" id="Node000005" href="$AArch64TargetTransformInfo_8h.html" title="This file a TargetTransformInfo::Concept conforming object specific to the AArch64 target machine." alt="" coords="859,94,1062,135"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="4046,30,3480,33,2620,43,2162,51,1729,63,1356,78,1074,97,1063,98,1062,93,1074,91,1356,72,1729,57,2162,46,2620,37,3480,28,4046,25"/>
+<area shape="rect" id="Node000007" href="$AMDGPUTargetTransformInfo_8h.html" title="This file a TargetTransformInfo::Concept conforming object specific to the AMDGPU target machine." alt="" coords="1087,94,1323,135"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="4046,31,3030,50,2286,69,1521,97,1323,108,1323,102,1521,91,2286,64,3030,44,4046,26"/>
+<area shape="rect" id="Node000011" href="$R600TargetTransformInfo_8h.html" title="This file a TargetTransformInfo::Concept conforming object specific to the R600 target machine." alt="" coords="1223,183,1432,223"/>
+<area shape="poly" id="edge14_Node000001_Node000011" title=" " alt="" coords="4046,30,3614,35,2986,47,2346,66,2079,80,1877,97,1747,115,1618,138,1406,185,1405,179,1617,133,1746,110,1876,91,2079,75,2346,61,2986,41,3614,30,4046,25"/>
+<area shape="rect" id="Node000014" href="$ARCTargetTransformInfo_8h.html" title=" " alt="" coords="1889,94,2065,135"/>
+<area shape="poly" id="edge15_Node000001_Node000014" title=" " alt="" coords="4046,32,3299,52,2772,71,2233,97,2066,108,2065,103,2233,91,2772,66,3298,47,4046,26"/>
+<area shape="rect" id="Node000016" href="$ARMTargetTransformInfo_8h.html" title="This file a TargetTransformInfo::Concept conforming object specific to the ARM target machine." alt="" coords="2245,94,2423,135"/>
+<area shape="poly" id="edge17_Node000001_Node000016" title=" " alt="" coords="4046,34,2424,111,2423,106,4046,29"/>
+<area shape="rect" id="Node000022" href="$BPFTargetTransformInfo_8h.html" title=" " alt="" coords="2874,94,3045,135"/>
+<area shape="poly" id="edge23_Node000001_Node000022" title=" " alt="" coords="4046,34,3640,56,3375,74,3108,97,3045,104,3045,98,3107,91,3375,69,3639,50,4046,28"/>
+<area shape="rect" id="Node000024" href="$DirectXTargetTransformInfo_8h.html" title=" " alt="" coords="3119,94,3317,135"/>
+<area shape="poly" id="edge25_Node000001_Node000024" title=" " alt="" coords="4046,38,3317,106,3317,101,4045,33"/>
+<area shape="rect" id="Node000026" href="$HexagonTargetTransformInfo_8h.html" title="This file implements a TargetTransformInfo analysis pass specific to the Hexagon target machine." alt="" coords="3441,94,3646,135"/>
+<area shape="poly" id="edge27_Node000001_Node000026" title=" " alt="" coords="4047,43,3647,101,3646,95,4046,37"/>
+<area shape="rect" id="Node000029" href="$LanaiTargetTransformInfo_8h.html" title=" " alt="" coords="3696,94,3876,135"/>
+<area shape="poly" id="edge30_Node000001_Node000029" title=" " alt="" coords="4047,52,3866,96,3865,91,4046,46"/>
+<area shape="rect" id="Node000031" href="$MipsTargetMachine_8cpp.html" title=" " alt="" coords="3882,183,4056,223"/>
+<area shape="poly" id="edge32_Node000001_Node000031" title=" " alt="" coords="4048,47,4009,66,3992,80,3978,95,3968,116,3964,139,3967,182,3962,182,3959,139,3963,115,3973,93,3988,76,4006,62,4045,42"/>
+<area shape="rect" id="Node000032" href="$MipsTargetTransformInfo_8h.html" title=" " alt="" coords="3987,94,4161,135"/>
+<area shape="poly" id="edge33_Node000001_Node000032" title=" " alt="" coords="4115,60,4090,95,4086,92,4111,57"/>
+<area shape="rect" id="Node000034" href="$NVPTXTargetTransformInfo_8cpp.html" title=" " alt="" coords="4279,183,4488,223"/>
+<area shape="poly" id="edge36_Node000001_Node000034" title=" " alt="" coords="4157,57,4187,96,4225,133,4270,160,4318,180,4316,185,4268,164,4222,137,4183,99,4153,60"/>
+<area shape="rect" id="Node000035" href="$NVPTXTargetTransformInfo_8h.html" title="This file a TargetTransformInfo::Concept conforming object specific to the NVPTX target machine." alt="" coords="4235,94,4444,135"/>
+<area shape="poly" id="edge37_Node000001_Node000035" title=" " alt="" coords="4196,50,4294,91,4292,96,4194,55"/>
+<area shape="rect" id="Node000037" href="$PPCTargetTransformInfo_8cpp.html" title=" " alt="" coords="4743,183,4938,223"/>
+<area shape="poly" id="edge40_Node000001_Node000037" title=" " alt="" coords="4225,32,4338,52,4398,69,4457,92,4472,102,4483,113,4492,123,4507,132,4599,155,4743,182,4742,187,4598,160,4505,137,4489,127,4479,116,4469,106,4454,96,4397,74,4337,57,4224,37"/>
+<area shape="rect" id="Node000038" href="$PPCTargetTransformInfo_8h.html" title="This file a TargetTransformInfo::Concept conforming object specific to the PPC target machine." alt="" coords="4518,94,4699,135"/>
+<area shape="poly" id="edge41_Node000001_Node000038" title=" " alt="" coords="4225,41,4518,94,4517,99,4224,46"/>
+<area shape="rect" id="Node000040" href="$RISCVTargetTransformInfo_8cpp.html" title=" " alt="" coords="5150,183,5353,223"/>
+<area shape="poly" id="edge44_Node000001_Node000040" title=" " alt="" coords="4225,29,4347,37,4488,49,4619,68,4672,79,4712,92,4728,101,4739,112,4748,123,4763,132,4817,152,4863,164,4905,170,4946,171,5031,171,5081,174,5138,180,5150,182,5150,187,5138,185,5080,179,5031,177,4946,177,4905,175,4862,169,4815,157,4761,137,4745,127,4735,116,4725,106,4710,96,4671,84,4618,73,4488,55,4347,42,4224,34"/>
+<area shape="rect" id="Node000041" href="$RISCVTargetTransformInfo_8h.html" title="This file defines a TargetTransformInfo::Concept conforming object specific to the RISC&#45;V target mach..." alt="" coords="4774,94,4977,135"/>
+<area shape="poly" id="edge45_Node000001_Node000041" title=" " alt="" coords="4225,33,4465,57,4756,91,4774,94,4774,99,4755,97,4465,62,4225,38"/>
+<area shape="rect" id="Node000043" href="$SPIRVTargetTransformInfo_8h.html" title=" " alt="" coords="5001,94,5201,135"/>
+<area shape="poly" id="edge48_Node000001_Node000043" title=" " alt="" coords="4225,29,4561,50,4774,68,4989,91,5000,93,5000,98,4988,97,4774,74,4561,56,4225,34"/>
+<area shape="rect" id="Node000045" href="$SystemZTargetTransformInfo_8cpp.html" title=" " alt="" coords="5604,183,5824,223"/>
+<area shape="poly" id="edge49_Node000001_Node000045" title=" " alt="" coords="4225,27,4469,35,4776,49,5054,67,5155,79,5214,92,5230,101,5240,112,5250,123,5265,132,5311,150,5352,161,5424,170,5498,172,5592,180,5604,182,5603,187,5591,185,5497,177,5423,175,5351,167,5309,155,5262,137,5246,127,5236,116,5227,105,5212,96,5154,84,5054,73,4775,54,4469,40,4225,32"/>
+<area shape="rect" id="Node000046" href="$SystemZTargetTransformInfo_8h.html" title=" " alt="" coords="5275,94,5481,135"/>
+<area shape="poly" id="edge50_Node000001_Node000046" title=" " alt="" coords="4225,27,4669,46,4961,65,5257,91,5274,93,5274,99,5256,97,4961,70,4668,51,4225,32"/>
+<area shape="rect" id="Node000048" href="$VETargetTransformInfo_8h.html" title="This file a TargetTransformInfo::Concept conforming object specific to the VE target machine." alt="" coords="5505,94,5718,135"/>
+<area shape="poly" id="edge52_Node000001_Node000048" title=" " alt="" coords="4225,25,4448,30,4762,41,5125,61,5493,91,5504,93,5504,98,5492,97,5124,66,4762,46,4448,35,4225,31"/>
+<area shape="rect" id="Node000050" href="$WebAssemblyTargetTransformInfo_8h.html" title="This file a TargetTransformInfo::Concept conforming object specific to the WebAssembly target machine..." alt="" coords="5742,94,5979,135"/>
+<area shape="poly" id="edge53_Node000001_Node000050" title=" " alt="" coords="4225,25,4482,29,4854,39,5288,59,5511,73,5730,91,5742,92,5741,98,5730,97,5511,79,5288,64,4854,44,4482,34,4225,30"/>
+<area shape="rect" id="Node000053" href="$X86TargetTransformInfo_8cpp.html" title="This file implements a TargetTransformInfo analysis pass specific to the X86 target machine." alt="" coords="5995,183,6159,223"/>
+<area shape="poly" id="edge54_Node000001_Node000053" title=" " alt="" coords="4225,25,4641,32,5213,45,5732,65,5908,77,5963,84,5992,92,6019,110,6041,134,6070,181,6066,184,6037,137,6016,114,5990,96,5962,89,5907,82,5732,70,5213,50,4641,38,4225,31"/>
+<area shape="rect" id="Node000054" href="$X86TargetTransformInfo_8h.html" title="This file a TargetTransformInfo::Concept conforming object specific to the X86 target machine." alt="" coords="6055,94,6219,135"/>
+<area shape="poly" id="edge55_Node000001_Node000054" title=" " alt="" coords="4225,26,5118,46,5648,65,5868,77,6036,91,6054,94,6054,99,6035,97,5868,83,5647,70,5118,51,4225,31"/>
+<area shape="rect" id="Node000057" href="$XCoreTargetTransformInfo_8h.html" title="This file a TargetTransformInfo::Concept conforming object specific to the XCore target machine." alt="" coords="6243,94,6436,135"/>
+<area shape="poly" id="edge57_Node000001_Node000057" title=" " alt="" coords="4225,25,4629,32,5209,45,5799,64,6045,77,6232,91,6243,93,6243,98,6231,97,6045,82,5798,70,5209,50,4629,37,4225,31"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="845,137,841,137,671,154,537,161,405,169,234,185,224,187,223,181,234,180,404,164,537,156,670,148,840,132,844,132"/>
+<area shape="rect" id="Node000006" href="$AArch64TargetMachine_8cpp.html" title=" " alt="" coords="247,183,432,223"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="845,137,841,137,643,161,445,185,433,187,432,182,444,180,642,155,840,132,844,131"/>
+<area shape="rect" id="Node000008" href="$AMDGPUInstCombineIntrinsic_8cpp.html" title=" " alt="" coords="456,183,679,223"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="1072,138,690,185,679,187,679,182,690,180,1072,132"/>
+<area shape="rect" id="Node000009" href="$AMDGPUTargetMachine_8cpp.html" title="The AMDGPU target machine contains all of the hardware specific information needed to emit code for S..." alt="" coords="703,183,939,223"/>
+<area shape="poly" id="edge9_Node000007_Node000009" title=" " alt="" coords="1103,141,908,185,907,180,1102,136"/>
+<area shape="rect" id="Node000010" href="$AMDGPUTargetTransformInfo_8cpp.html" title=" " alt="" coords="963,183,1199,223"/>
+<area shape="poly" id="edge10_Node000007_Node000010" title=" " alt="" coords="1167,145,1110,184,1107,180,1163,141"/>
+<area shape="poly" id="edge11_Node000007_Node000011" title=" " alt="" coords="1246,141,1301,180,1298,184,1243,146"/>
+<area shape="rect" id="Node000012" href="$R600TargetMachine_8cpp.html" title="The AMDGPU&#45;R600 target machine contains all of the hardware specific information needed to emit code ..." alt="" coords="1107,271,1316,312"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="1291,235,1239,273,1236,269,1288,230"/>
+<area shape="rect" id="Node000013" href="$R600TargetTransformInfo_8cpp.html" title=" " alt="" coords="1339,271,1548,312"/>
+<area shape="poly" id="edge13_Node000011_Node000013" title=" " alt="" coords="1367,230,1419,269,1416,273,1364,235"/>
+<area shape="rect" id="Node000015" href="$ARCTargetMachine_8cpp.html" title=" " alt="" coords="1455,183,1632,223"/>
+<area shape="poly" id="edge16_Node000014_Node000015" title=" " alt="" coords="1874,139,1632,187,1631,181,1873,134"/>
+<area shape="rect" id="Node000017" href="$ARMISelLowering_8cpp.html" title=" " alt="" coords="1656,190,1898,216"/>
+<area shape="poly" id="edge18_Node000016_Node000017" title=" " alt="" coords="2231,134,1856,192,1855,187,2230,129"/>
+<area shape="rect" id="Node000018" href="$ARMSelectionDAGInfo_8cpp.html" title=" " alt="" coords="1923,183,2119,223"/>
+<area shape="poly" id="edge19_Node000016_Node000018" title=" " alt="" coords="2250,142,2093,185,2091,180,2248,136"/>
+<area shape="rect" id="Node000019" href="$ARMTargetMachine_8cpp.html" title=" " alt="" coords="2144,183,2322,223"/>
+<area shape="poly" id="edge20_Node000016_Node000019" title=" " alt="" coords="2302,147,2257,184,2254,180,2298,143"/>
+<area shape="rect" id="Node000020" href="$ARMTargetTransformInfo_8cpp.html" title=" " alt="" coords="2346,183,2525,223"/>
+<area shape="poly" id="edge21_Node000016_Node000020" title=" " alt="" coords="2370,143,2414,180,2411,184,2366,147"/>
+<area shape="rect" id="Node000021" href="$MVETailPredication_8cpp.html" title="Armv8.1m introduced MVE, M&#45;Profile Vector Extension, and low&#45;overhead branches to help accelerate DSP..." alt="" coords="2548,190,2800,216"/>
+<area shape="poly" id="edge22_Node000016_Node000021" title=" " alt="" coords="2426,136,2627,187,2625,192,2425,141"/>
+<area shape="rect" id="Node000023" href="$BPFTargetMachine_8cpp.html" title=" " alt="" coords="2824,183,2994,223"/>
+<area shape="poly" id="edge24_Node000022_Node000023" title=" " alt="" coords="2943,149,2922,184,2918,181,2938,146"/>
+<area shape="rect" id="Node000025" href="$DirectXTargetMachine_8cpp.html" title="This file contains DirectX target initializer." alt="" coords="3018,183,3197,223"/>
+<area shape="poly" id="edge26_Node000024_Node000025" title=" " alt="" coords="3183,146,3134,184,3131,180,3180,142"/>
+<area shape="rect" id="Node000027" href="$HexagonTargetMachine_8cpp.html" title=" " alt="" coords="3222,183,3409,223"/>
+<area shape="poly" id="edge28_Node000026_Node000027" title=" " alt="" coords="3479,143,3368,185,3366,180,3477,138"/>
+<area shape="rect" id="Node000028" href="$HexagonTargetTransformInfo_8cpp.html" title="This file implements a TargetTransformInfo analysis pass specific to the Hexagon target machine." alt="" coords="3434,183,3653,223"/>
+<area shape="poly" id="edge29_Node000026_Node000028" title=" " alt="" coords="3546,149,3546,182,3541,182,3541,149"/>
+<area shape="rect" id="Node000030" href="$LanaiTargetMachine_8cpp.html" title=" " alt="" coords="3677,183,3858,223"/>
+<area shape="poly" id="edge31_Node000029_Node000030" title=" " alt="" coords="3781,150,3774,183,3769,182,3776,149"/>
+<area shape="poly" id="edge34_Node000032_Node000031" title=" " alt="" coords="4041,146,3994,184,3991,180,4037,142"/>
+<area shape="rect" id="Node000033" href="$MipsTargetTransformInfo_8cpp.html" title=" " alt="" coords="4080,183,4255,223"/>
+<area shape="poly" id="edge35_Node000032_Node000033" title=" " alt="" coords="4108,143,4148,180,4144,184,4104,147"/>
+<area shape="poly" id="edge39_Node000035_Node000034" title=" " alt="" coords="4358,147,4376,181,4371,183,4353,149"/>
+<area shape="rect" id="Node000036" href="$NVPTXTargetMachine_8cpp.html" title=" " alt="" coords="4511,183,4720,223"/>
+<area shape="poly" id="edge38_Node000035_Node000036" title=" " alt="" coords="4417,137,4553,180,4552,185,4415,142"/>
+<area shape="poly" id="edge43_Node000038_Node000037" title=" " alt="" coords="4676,138,4789,180,4787,185,4674,143"/>
+<area shape="rect" id="Node000039" href="$PPCTargetMachine_8cpp.html" title=" " alt="" coords="4963,183,5126,223"/>
+<area shape="poly" id="edge42_Node000038_Node000039" title=" " alt="" coords="4715,134,4951,180,4963,183,4962,188,4949,185,4713,139"/>
+<area shape="poly" id="edge47_Node000041_Node000040" title=" " alt="" coords="4976,136,5167,180,5165,185,4975,141"/>
+<area shape="rect" id="Node000042" href="$RISCVTargetMachine_8cpp.html" title=" " alt="" coords="5377,183,5579,223"/>
+<area shape="poly" id="edge46_Node000041_Node000042" title=" " alt="" coords="4991,132,5180,156,5365,180,5377,182,5376,187,5364,185,5179,162,4991,138"/>
+<area shape="poly" id="edge51_Node000046_Node000045" title=" " alt="" coords="5470,136,5638,180,5637,185,5468,142"/>
+<area shape="poly" id="edge56_Node000054_Node000053" title=" " alt="" coords="6117,148,6092,184,6088,181,6113,145"/>
+</map>
