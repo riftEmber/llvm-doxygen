@@ -1,0 +1,109 @@
+<map id="llvm::BTFDebug" name="llvm::BTFDebug">
+<area shape="rect" id="Node000001" title="Collect and emit BTF information." alt="" coords="1591,1152,1707,1177"/>
+<area shape="rect" id="Node000002" href="$classllvm_1_1DebugHandlerBase.html" title="Base class for debug information backends." alt="" coords="1375,1152,1541,1177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1557,1162,1590,1162,1590,1167,1557,1167"/>
+<area shape="rect" id="Node000003" href="$classllvm_1_1AsmPrinterHandler.html" title="Collects and handles AsmPrinter objects required to build debug or EH information." alt="" coords="1051,53,1215,79"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1229,53,1262,56,1296,63,1326,76,1353,97,1367,122,1380,162,1402,280,1420,436,1434,611,1452,948,1459,1151,1454,1151,1447,948,1428,611,1414,436,1397,281,1375,163,1362,124,1349,101,1324,81,1294,68,1262,61,1229,59"/>
+<area shape="rect" id="Node000004" href="$classllvm_1_1AsmPrinter.html" title="This class is intended to be used as a driving class for all asm writers." alt="" coords="1074,694,1192,720"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="1154,731,1450,1150,1445,1153,1150,734"/>
+<area shape="rect" id="Node000005" href="$classllvm_1_1MachineFunctionPass.html" title="MachineFunctionPass &#45; This class adapts the FunctionPass interface to allow convenient creation of pa..." alt="" coords="188,818,370,844"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="329,847,444,886,514,904,585,918,682,928,808,933,872,931,931,925,982,914,1019,898,1042,879,1062,857,1094,806,1115,756,1126,719,1131,721,1120,758,1099,808,1067,860,1046,883,1022,903,983,920,932,930,872,936,808,938,681,933,584,923,513,909,443,891,327,852"/>
+<area shape="rect" id="Node000077" href="$classllvm_1_1MachineDominatorTree.html" title="DominatorTree Class &#45; Concrete subclass of DominatorTreeBase that is used to compute a normal dominat..." alt="" coords="617,769,805,795"/>
+<area shape="poly" id="edge23_Node000077_Node000005" title=" " alt="" coords="372,813,394,810,616,786,617,792,395,815,373,818"/>
+<area shape="rect" id="Node000078" href="$classllvm_1_1MachineLoopInfo.html" title=" " alt="" coords="635,818,787,844"/>
+<area shape="poly" id="edge25_Node000078_Node000005" title=" " alt="" coords="386,828,634,828,634,834,386,834"/>
+<area shape="rect" id="Node000006" href="$classllvm_1_1FunctionPass.html" title="FunctionPass class &#45; This class is used to implement most global optimizations." alt="" coords="5,818,139,844"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="154,828,188,828,188,834,154,834"/>
+<area shape="rect" id="Node000008" href="$classllvm_1_1TargetMachine.html" title="Primary interface to the complete machine description for the target machine." alt="" coords="642,989,780,1015"/>
+<area shape="poly" id="edge6_Node000004_Node000008" title=" " alt="" coords="795,993,933,979,989,970,1019,961,1047,935,1070,904,1088,869,1102,834,1120,767,1128,720,1133,721,1125,768,1107,836,1093,872,1074,907,1051,939,1022,966,991,976,934,985,795,998"/>
+<area shape="rect" id="Node000009" href="$classllvm_1_1Target.html" title="Target &#45; Wrapper for Target specific information." alt="" coords="235,964,324,989"/>
+<area shape="poly" id="edge7_Node000008_Node000009" title=" " alt="" coords="339,977,641,995,641,1000,339,982"/>
+<area shape="rect" id="Node000010" href="$classllvm_1_1DataLayout.html" title="A parsed version of the target data layout string in and methods for querying it." alt="" coords="219,1013,339,1039"/>
+<area shape="poly" id="edge8_Node000008_Node000010" title=" " alt="" coords="354,1025,452,1025,560,1021,641,1011,642,1016,561,1026,452,1031,354,1030"/>
+<area shape="rect" id="Node000011" href="$classllvm_1_1Triple.html" title="Triple &#45; Helper class for working with autoconf configuration names." alt="" coords="237,1062,322,1088"/>
+<area shape="poly" id="edge9_Node000008_Node000011" title=" " alt="" coords="337,1078,386,1079,443,1075,503,1065,559,1046,571,1035,583,1023,612,1012,641,1005,642,1010,613,1017,586,1028,574,1039,562,1051,504,1071,444,1081,386,1084,336,1083"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="253,1116,306,1141"/>
+<area shape="poly" id="edge10_Node000008_Node000012" title=" " alt="" coords="321,1137,373,1148,437,1152,469,1150,501,1143,531,1132,559,1115,567,1105,571,1095,570,1072,570,1048,573,1036,583,1024,610,1007,641,999,642,1004,612,1012,586,1028,578,1038,575,1049,576,1072,576,1096,572,1108,562,1119,534,1137,503,1149,470,1155,437,1157,373,1153,320,1143"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="251,1165,307,1191"/>
+<area shape="poly" id="edge11_Node000008_Node000013" title=" " alt="" coords="322,1181,384,1188,454,1191,518,1188,542,1182,559,1173,572,1157,576,1140,571,1103,565,1063,569,1043,582,1024,609,1006,641,998,642,1003,612,1011,586,1028,574,1045,571,1063,577,1102,582,1140,576,1159,562,1177,544,1187,519,1193,454,1197,383,1193,322,1186"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="251,1214,307,1240"/>
+<area shape="poly" id="edge12_Node000008_Node000014" title=" " alt="" coords="322,1237,376,1249,439,1253,472,1251,503,1244,533,1232,558,1213,575,1192,580,1170,577,1147,571,1123,565,1098,562,1073,567,1048,582,1024,610,1006,641,997,642,1002,612,1010,586,1028,572,1050,568,1073,570,1097,577,1122,583,1146,585,1170,579,1194,562,1217,535,1236,505,1249,473,1256,439,1259,375,1254,321,1243"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="253,914,305,940"/>
+<area shape="poly" id="edge13_Node000008_Node000015" title=" " alt="" coords="320,928,429,941,561,962,662,986,661,991,560,967,428,946,320,934"/>
+<area shape="rect" id="Node000020" href="$classunsigned.html" title=" " alt="" coords="243,628,316,653"/>
+<area shape="poly" id="edge14_Node000008_Node000020" title=" " alt="" coords="305,662,421,777,501,849,586,918,640,956,688,986,685,991,637,961,583,922,498,853,418,780,301,666"/>
+<area shape="rect" id="Node000044" href="$classllvm_1_1MCAsmInfo.html" title="This class is intended to be used as a base class for asm properties and features specific to the tar..." alt="" coords="649,540,773,565"/>
+<area shape="poly" id="edge16_Node000044_Node000020" title=" " alt="" coords="330,636,457,628,517,619,559,605,566,599,570,592,574,583,583,575,615,561,649,553,650,559,617,566,586,580,579,587,575,594,570,602,562,610,519,624,457,633,331,642"/>
+<area shape="rect" id="Node000054" href="$classllvm_1_1MachineFunction.html" title=" " alt="" coords="635,720,787,745"/>
+<area shape="poly" id="edge20_Node000054_Node000020" title=" " alt="" coords="331,653,395,669,478,683,561,698,585,706,635,717,634,722,584,711,560,703,477,688,394,674,329,658"/>
+<area shape="rect" id="Node000080" href="$classllvm_1_1MCSymbol.html" title="MCSymbol &#45; Instances of this class represent a symbol name in the MC file, and MCSymbols are created ..." alt="" coords="652,180,770,205"/>
+<area shape="poly" id="edge30_Node000080_Node000020" title=" " alt="" coords="295,614,336,564,363,538,393,515,417,504,441,498,483,497,503,496,522,493,540,483,558,466,567,446,571,416,569,342,567,268,571,238,582,216,597,204,614,195,651,187,652,192,616,200,600,208,586,219,577,239,572,268,574,342,576,417,573,447,563,470,543,488,524,498,504,502,484,503,441,504,419,509,396,520,366,542,340,567,299,617"/>
+<area shape="poly" id="edge15_Node000004_Node000044" title=" " alt="" coords="788,557,901,577,963,594,1022,618,1051,635,1079,655,1120,692,1117,696,1075,659,1048,639,1020,623,961,599,900,582,787,562"/>
+<area shape="rect" id="Node000052" href="$classllvm_1_1MCContext.html" title="Context object for machine code objects." alt="" coords="651,310,771,336"/>
+<area shape="poly" id="edge17_Node000004_Node000052" title=" " alt="" coords="786,326,929,341,989,351,1022,362,1058,400,1085,445,1105,493,1119,542,1132,633,1134,694,1129,694,1127,633,1113,543,1100,495,1080,447,1054,403,1019,367,988,356,928,346,786,331"/>
+<area shape="rect" id="Node000053" title=" " alt="" coords="605,360,817,385"/>
+<area shape="poly" id="edge18_Node000004_Node000053" title=" " alt="" coords="832,378,951,390,997,397,1022,406,1055,438,1080,476,1099,518,1113,561,1129,640,1134,694,1129,694,1124,640,1108,562,1094,520,1075,479,1050,442,1019,411,995,402,950,395,831,383"/>
+<area shape="poly" id="edge19_Node000004_Node000054" title=" " alt="" coords="802,729,907,726,1020,719,1073,713,1074,719,1021,725,907,731,802,734"/>
+<area shape="rect" id="Node000076" href="$classllvm_1_1MachineModuleInfo.html" title="This class contains meta information specific to a module." alt="" coords="628,1038,794,1064"/>
+<area shape="poly" id="edge41_Node000002_Node000076" title=" " alt="" coords="809,1042,921,1040,1058,1045,1207,1063,1280,1078,1352,1098,1403,1122,1442,1149,1439,1153,1400,1127,1350,1103,1279,1083,1206,1068,1058,1051,921,1045,809,1047"/>
+<area shape="poly" id="edge21_Node000004_Node000076" title=" " alt="" coords="809,1041,940,1026,992,1017,1019,1008,1051,976,1076,938,1095,896,1108,854,1124,774,1129,720,1134,720,1129,775,1114,855,1099,898,1080,940,1055,979,1022,1012,993,1022,941,1031,809,1046"/>
+<area shape="poly" id="edge22_Node000004_Node000077" title=" " alt="" coords="820,776,918,767,1020,749,1064,734,1103,718,1105,723,1066,739,1021,754,919,772,820,781"/>
+<area shape="poly" id="edge24_Node000004_Node000078" title=" " alt="" coords="802,831,853,829,909,823,965,812,1020,794,1050,778,1077,758,1118,719,1122,722,1081,762,1053,783,1022,799,967,817,909,829,853,835,802,837"/>
+<area shape="rect" id="Node000079" href="$classllvm_1_1MachineOptimizationRemarkEmitter.html" title="The optimization diagnostic interface." alt="" coords="623,409,799,450"/>
+<area shape="poly" id="edge26_Node000004_Node000079" title=" " alt="" coords="814,422,865,425,920,434,974,452,1022,480,1048,503,1070,531,1102,592,1122,651,1132,693,1127,694,1117,652,1097,594,1065,534,1044,507,1019,484,971,457,919,440,865,430,813,427"/>
+<area shape="poly" id="edge43_Node000002_Node000080" title=" " alt="" coords="745,169,801,142,873,118,911,112,950,111,987,118,1022,134,1091,185,1152,245,1206,311,1253,383,1294,459,1329,538,1359,617,1384,697,1421,849,1443,983,1455,1088,1459,1151,1454,1151,1449,1088,1438,984,1415,850,1379,698,1354,619,1324,540,1289,461,1248,386,1202,314,1148,248,1087,189,1019,139,986,123,949,116,912,117,874,123,803,147,747,174"/>
+<area shape="poly" id="edge27_Node000004_Node000080" title=" " alt="" coords="785,197,813,204,839,215,852,228,863,239,885,248,906,251,945,248,983,249,1003,256,1023,270,1046,304,1066,354,1084,414,1099,481,1121,608,1133,694,1127,694,1116,609,1094,482,1079,416,1061,355,1041,306,1019,274,1000,261,982,254,945,254,906,256,884,253,860,244,848,231,836,220,811,209,784,202"/>
+<area shape="rect" id="Node000081" href="$classllvm_1_1MCFragment.html" title=" " alt="" coords="215,280,344,305"/>
+<area shape="poly" id="edge28_Node000080_Node000081" title=" " alt="" coords="359,295,407,293,459,287,511,273,559,250,566,243,570,234,574,225,583,215,616,200,651,192,652,197,618,205,586,220,578,228,575,236,571,246,562,255,513,278,460,292,407,299,359,300"/>
+<area shape="rect" id="Node000091" href="$classllvm_1_1PointerIntPair.html" title=" " alt="" coords="191,5,368,46"/>
+<area shape="poly" id="edge29_Node000080_Node000091" title=" " alt="" coords="383,20,472,29,518,39,561,55,607,83,647,117,702,177,698,181,644,120,604,87,559,60,516,44,471,34,382,25"/>
+<area shape="rect" id="Node000093" href="$classuint32__t.html" title=" " alt="" coords="246,74,313,100"/>
+<area shape="poly" id="edge31_Node000080_Node000093" title=" " alt="" coords="328,86,436,95,499,104,561,119,632,147,689,177,686,181,630,152,560,124,498,110,435,100,328,91"/>
+<area shape="rect" id="Node000094" href="$classuint64__t.html" title=" " alt="" coords="246,132,313,157"/>
+<area shape="poly" id="edge32_Node000080_Node000094" title=" " alt="" coords="328,147,652,183,651,188,327,152"/>
+<area shape="rect" id="Node000095" href="$classllvm_1_1MCExpr.html" title="Base class for the full range of assembler expressions which are needed for parsing." alt="" coords="229,181,330,207"/>
+<area shape="poly" id="edge33_Node000080_Node000095" title=" " alt="" coords="344,191,651,190,651,195,344,196"/>
+<area shape="rect" id="Node000096" title=" " alt="" coords="216,230,343,256"/>
+<area shape="poly" id="edge34_Node000080_Node000096" title=" " alt="" coords="358,233,560,211,651,199,652,204,561,217,358,238"/>
+<area shape="rect" id="Node000097" href="$classllvm_1_1MapVector.html" title=" " alt="" coords="584,475,838,515"/>
+<area shape="poly" id="edge35_Node000004_Node000097" title=" " alt="" coords="853,496,896,503,940,514,982,529,1022,550,1061,583,1092,623,1114,662,1129,692,1124,695,1110,665,1087,626,1057,587,1019,555,980,534,938,519,895,508,852,501"/>
+<area shape="rect" id="Node000099" href="$classllvm_1_1MapVector.html" title=" " alt="" coords="599,590,823,646"/>
+<area shape="poly" id="edge36_Node000004_Node000099" title=" " alt="" coords="839,634,929,650,1021,670,1094,691,1092,696,1020,675,928,655,838,639"/>
+<area shape="rect" id="Node000100" title=" " alt="" coords="628,868,794,909"/>
+<area shape="poly" id="edge37_Node000004_Node000100" title=" " alt="" coords="809,893,860,892,914,886,969,872,1019,850,1057,821,1087,784,1109,748,1123,719,1128,722,1114,750,1091,787,1060,825,1022,855,970,877,915,891,860,897,809,899"/>
+<area shape="rect" id="Node000046" href="$classsize__t.html" title=" " alt="" coords="683,1088,739,1113"/>
+<area shape="poly" id="edge38_Node000004_Node000046" title=" " alt="" coords="754,1105,812,1110,883,1108,919,1102,955,1093,989,1078,1019,1057,1038,1033,1057,994,1089,894,1113,791,1127,720,1132,721,1118,792,1094,895,1062,996,1043,1035,1022,1061,991,1082,957,1098,921,1108,883,1113,812,1115,754,1110"/>
+<area shape="rect" id="Node000116" href="$classllvm_1_1DbgValueHistoryMap.html" title="For each user variable, keep a list of instruction ranges where this variable is accessible." alt="" coords="1045,1102,1221,1128"/>
+<area shape="poly" id="edge53_Node000116_Node000046" title=" " alt="" coords="754,1105,838,1123,862,1130,941,1136,1020,1130,1057,1126,1058,1131,1021,1135,941,1141,861,1135,837,1128,753,1110"/>
+<area shape="rect" id="Node000101" href="$classllvm_1_1StackMaps.html" title=" " alt="" coords="651,670,771,696"/>
+<area shape="poly" id="edge39_Node000004_Node000101" title=" " alt="" coords="785,685,1073,701,1073,706,785,690"/>
+<area shape="rect" id="Node000102" href="$classllvm_1_1SmallVector.html" title=" " alt="" coords="604,230,818,286"/>
+<area shape="poly" id="edge40_Node000004_Node000102" title=" " alt="" coords="833,279,862,285,909,288,948,287,984,292,1003,301,1023,316,1044,345,1064,389,1096,502,1120,616,1132,693,1127,694,1114,617,1091,503,1058,391,1039,348,1019,320,1000,305,983,297,948,292,909,294,861,290,832,284"/>
+<area shape="rect" id="Node000105" href="$classllvm_1_1DebugLoc.html" title="A debug info location." alt="" coords="1077,1152,1189,1177"/>
+<area shape="poly" id="edge42_Node000002_Node000105" title=" " alt="" coords="1204,1162,1375,1162,1375,1167,1204,1167"/>
+<area shape="rect" id="Node000106" href="$classllvm_1_1MachineBasicBlock.html" title=" " alt="" coords="1049,1205,1217,1231"/>
+<area shape="poly" id="edge44_Node000002_Node000106" title=" " alt="" coords="1232,1212,1291,1206,1350,1197,1423,1175,1424,1180,1352,1202,1291,1212,1232,1217"/>
+<area shape="rect" id="Node000107" href="$classllvm_1_1ilist__node__with__parent.html" title=" " alt="" coords="613,1138,809,1194"/>
+<area shape="poly" id="edge45_Node000106_Node000107" title=" " alt="" coords="824,1177,1048,1205,1048,1210,823,1182"/>
+<area shape="rect" id="Node000109" href="$classllvm_1_1MachineInstr.html" title="Representation of each machine instruction." alt="" coords="1069,1258,1197,1284"/>
+<area shape="poly" id="edge46_Node000002_Node000109" title=" " alt="" coords="1211,1263,1280,1252,1350,1232,1400,1204,1440,1176,1443,1180,1403,1209,1352,1236,1281,1257,1212,1268"/>
+<area shape="rect" id="Node000110" href="$classllvm_1_1ilist__node__with__parent.html" title=" " alt="" coords="619,1312,803,1382"/>
+<area shape="poly" id="edge47_Node000109_Node000110" title=" " alt="" coords="818,1325,1068,1280,1069,1285,819,1330"/>
+<area shape="rect" id="Node000112" title=" " alt="" coords="625,1406,797,1462"/>
+<area shape="poly" id="edge48_Node000109_Node000112" title=" " alt="" coords="811,1420,863,1409,917,1393,971,1369,1019,1337,1027,1327,1030,1316,1034,1305,1043,1293,1067,1280,1070,1284,1046,1297,1038,1307,1035,1318,1032,1330,1022,1341,973,1374,919,1398,864,1415,812,1426"/>
+<area shape="rect" id="Node000113" title=" " alt="" coords="606,1485,816,1556"/>
+<area shape="poly" id="edge49_Node000109_Node000113" title=" " alt="" coords="830,1514,880,1504,931,1489,978,1465,1019,1431,1029,1414,1033,1398,1030,1364,1026,1329,1031,1311,1043,1293,1067,1277,1070,1281,1047,1297,1036,1313,1032,1330,1035,1364,1039,1398,1034,1416,1023,1434,981,1469,933,1494,881,1510,831,1519"/>
+<area shape="rect" id="Node000114" title=" " alt="" coords="606,1217,816,1288"/>
+<area shape="poly" id="edge50_Node000109_Node000114" title=" " alt="" coords="831,1255,1068,1266,1068,1271,830,1260"/>
+<area shape="rect" id="Node000115" href="$classllvm_1_1LexicalScopes.html" title="LexicalScopes &#45; This class provides interface to collect and use lexical scoping information from mac..." alt="" coords="1064,1308,1202,1333"/>
+<area shape="poly" id="edge51_Node000002_Node000115" title=" " alt="" coords="1217,1316,1284,1305,1318,1294,1350,1280,1382,1256,1410,1228,1447,1176,1451,1179,1414,1231,1386,1260,1352,1284,1320,1299,1285,1310,1217,1321"/>
+<area shape="poly" id="edge52_Node000002_Node000116" title=" " alt="" coords="1236,1116,1352,1130,1420,1148,1419,1154,1350,1135,1235,1121"/>
+<area shape="rect" id="Node000117" href="$classllvm_1_1DbgLabelInstrMap.html" title="For each inlined instance of a source&#45;level label, keep the corresponding DBG_LABEL instruction." alt="" coords="1053,1357,1213,1383"/>
+<area shape="poly" id="edge54_Node000002_Node000117" title=" " alt="" coords="1227,1369,1290,1359,1321,1348,1350,1333,1370,1317,1388,1297,1418,1253,1438,1210,1450,1177,1455,1179,1443,1212,1423,1255,1393,1300,1374,1321,1352,1338,1323,1353,1292,1364,1228,1375"/>
+<area shape="rect" id="Node000118" href="$classllvm_1_1DenseMap.html" title=" " alt="" coords="1053,1573,1213,1628"/>
+<area shape="poly" id="edge55_Node000002_Node000118" title=" " alt="" coords="1185,1561,1268,1493,1311,1451,1349,1405,1387,1342,1417,1276,1451,1177,1456,1178,1422,1278,1392,1344,1353,1408,1315,1454,1272,1497,1189,1565"/>
+<area shape="rect" id="Node000119" href="$classllvm_1_1DenseMapBase.html" title=" " alt="" coords="625,1645,797,1700"/>
+<area shape="poly" id="edge56_Node000118_Node000119" title=" " alt="" coords="811,1653,1052,1611,1053,1617,812,1658"/>
+<area shape="rect" id="Node000074" href="$classllvm_1_1DenseMap.html" title=" " alt="" coords="615,1580,807,1621"/>
+<area shape="poly" id="edge57_Node000118_Node000074" title=" " alt="" coords="822,1598,1052,1598,1052,1603,822,1603"/>
+</map>
