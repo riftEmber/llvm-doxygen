@@ -1,0 +1,99 @@
+<map id="llvm::Value" name="llvm::Value">
+<area shape="rect" id="Node000001" title="LLVM Value Representation." alt="" coords="5,573,91,599"/>
+<area shape="rect" id="Node000002" href="$classllvm_1_1Argument.html" title="This class represents an incoming formal argument to a Function." alt="" coords="162,475,271,500"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="70,561,101,534,137,509,161,499,164,503,140,514,104,538,74,565"/>
+<area shape="rect" id="Node000003" href="$classllvm_1_1BasicBlock.html" title="LLVM Basic Block Representation." alt="" coords="157,524,276,550"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="104,567,169,548,170,553,106,572"/>
+<area shape="rect" id="Node000004" href="$classllvm_1_1InlineAsm.html" title=" " alt="" coords="161,573,272,599"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="105,584,160,584,160,589,105,589"/>
+<area shape="rect" id="Node000005" href="$classllvm_1_1MetadataAsValue.html" title="Metadata wrapper in the Value hierarchy." alt="" coords="139,623,294,648"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="106,600,170,619,169,625,104,605"/>
+<area shape="rect" id="Node000006" href="$classllvm_1_1User.html" title=" " alt="" coords="176,672,257,698"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="74,608,104,634,140,658,176,673,174,678,137,663,101,638,70,612"/>
+<area shape="rect" id="Node000007" href="$classllvm_1_1Constant.html" title="This is an important base class in LLVM." alt="" coords="352,179,458,204"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="270,674,292,659,313,592,345,454,398,204,404,206,350,455,318,593,296,662,273,678"/>
+<area shape="rect" id="Node000042" href="$classllvm_1_1DerivedUser.html" title="Extension point for the Value hierarchy." alt="" coords="342,511,468,536"/>
+<area shape="poly" id="edge14_Node000006_Node000042" title=" " alt="" coords="270,670,293,659,327,629,356,595,395,535,399,538,361,598,331,633,295,663,272,675"/>
+<area shape="rect" id="Node000048" href="$classllvm_1_1Instruction.html" title=" " alt="" coords="348,992,462,1018"/>
+<area shape="poly" id="edge16_Node000006_Node000048" title=" " alt="" coords="235,709,398,990,394,993,230,712"/>
+<area shape="rect" id="Node000193" href="$classllvm_1_1Operator.html" title="This is a utility class that provides an abstraction for the common functionality between Instruction..." alt="" coords="354,1819,457,1844"/>
+<area shape="poly" id="edge43_Node000006_Node000193" title=" " alt="" coords="225,712,404,1818,399,1818,220,713"/>
+<area shape="rect" id="Node000008" href="$classllvm_1_1BlockAddress.html" title="The address of a basic block." alt="" coords="536,5,671,31"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="417,164,455,101,482,68,515,40,535,29,538,34,518,44,486,72,459,105,421,167"/>
+<area shape="rect" id="Node000009" href="$classllvm_1_1ConstantAggregate.html" title="Base class for aggregate constants (with operands)." alt="" coords="521,55,686,80"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="425,165,464,126,515,89,540,78,542,83,518,94,468,130,429,169"/>
+<area shape="rect" id="Node000013" href="$classllvm_1_1ConstantData.html" title="Base class for constants with no operands." alt="" coords="536,104,671,130"/>
+<area shape="poly" id="edge9_Node000007_Node000013" title=" " alt="" coords="444,169,515,138,548,128,550,133,517,143,446,174"/>
+<area shape="rect" id="Node000025" href="$classllvm_1_1ConstantExpr.html" title="A constant value that is initialized with an expression using other constant values." alt="" coords="537,153,670,179"/>
+<area shape="poly" id="edge10_Node000007_Node000025" title=" " alt="" coords="473,180,536,172,537,177,474,185"/>
+<area shape="rect" id="Node000034" href="$classllvm_1_1DSOLocalEquivalent.html" title="Wrapper for a function that represents a value that functionally represents the original function." alt="" coords="516,203,691,228"/>
+<area shape="poly" id="edge11_Node000007_Node000034" title=" " alt="" coords="474,197,516,202,516,208,473,202"/>
+<area shape="rect" id="Node000035" href="$classllvm_1_1GlobalValue.html" title=" " alt="" coords="542,252,665,278"/>
+<area shape="poly" id="edge12_Node000007_Node000035" title=" " alt="" coords="447,208,517,238,550,249,548,254,515,243,445,213"/>
+<area shape="rect" id="Node000041" href="$classllvm_1_1NoCFIValue.html" title="Wrapper for a value that won&#39;t be replaced with a CFI jump table pointer in LowerTypeTestsModule." alt="" coords="541,301,666,327"/>
+<area shape="poly" id="edge13_Node000007_Node000041" title=" " alt="" coords="429,214,468,252,518,288,542,298,540,303,515,292,464,256,425,217"/>
+<area shape="rect" id="Node000043" href="$classllvm_1_1MemoryAccess.html" title=" " alt="" coords="531,351,676,376"/>
+<area shape="poly" id="edge15_Node000042_Node000043" title=" " alt="" coords="418,496,457,440,484,410,515,385,536,374,539,379,518,390,487,414,461,443,423,499"/>
+<area shape="rect" id="Node000049" href="$classllvm_1_1AtomicCmpXchgInst.html" title="An instruction that atomically checks whether a specified value is in a memory location,..." alt="" coords="516,400,691,426"/>
+<area shape="poly" id="edge17_Node000048_Node000049" title=" " alt="" coords="408,977,452,681,483,523,499,466,514,435,528,424,531,428,518,439,504,468,489,524,457,682,413,977"/>
+<area shape="rect" id="Node000050" href="$classllvm_1_1AtomicRMWInst.html" title="an instruction that atomically reads a memory location, combines it with another value,..." alt="" coords="528,449,679,475"/>
+<area shape="poly" id="edge18_Node000048_Node000050" title=" " alt="" coords="406,977,417,870,437,722,452,648,469,579,490,523,514,484,528,474,531,478,518,488,495,525,474,581,457,649,442,723,422,870,411,978"/>
+<area shape="rect" id="Node000051" href="$classllvm_1_1BinaryOperator.html" title=" " alt="" coords="533,499,674,524"/>
+<area shape="poly" id="edge19_Node000048_Node000051" title=" " alt="" coords="407,977,419,879,441,746,455,679,472,618,492,568,514,534,531,521,534,526,518,537,497,571,477,620,460,680,446,747,424,879,412,977"/>
+<area shape="rect" id="Node000052" href="$classllvm_1_1BranchInst.html" title="Conditional or Unconditional Branch instruction." alt="" coords="545,548,662,574"/>
+<area shape="poly" id="edge20_Node000048_Node000052" title=" " alt="" coords="407,977,421,888,444,770,475,658,494,613,514,583,528,572,544,565,546,570,531,577,518,587,498,616,480,659,449,772,426,889,413,978"/>
+<area shape="rect" id="Node000053" href="$classllvm_1_1CallBase.html" title="Base class for all callable instructions (InvokeInst and CallInst) Holds everything related to callin..." alt="" coords="550,597,657,623"/>
+<area shape="poly" id="edge21_Node000048_Node000053" title=" " alt="" coords="404,977,407,907,422,815,436,766,456,717,481,672,515,632,531,621,549,613,551,618,533,625,518,636,486,675,461,720,441,767,428,816,413,908,409,977"/>
+<area shape="rect" id="Node000148" href="$classllvm_1_1CatchReturnInst.html" title=" " alt="" coords="529,647,678,672"/>
+<area shape="poly" id="edge22_Node000048_Node000148" title=" " alt="" coords="405,977,412,916,429,837,443,795,461,754,485,715,515,682,530,671,533,675,518,685,489,718,466,756,448,797,434,838,417,917,410,977"/>
+<area shape="rect" id="Node000149" href="$classllvm_1_1CatchSwitchInst.html" title=" " alt="" coords="528,696,679,722"/>
+<area shape="poly" id="edge23_Node000048_Node000149" title=" " alt="" coords="407,977,416,925,436,858,467,790,489,758,515,731,531,720,534,724,518,735,493,762,472,793,441,860,422,926,412,978"/>
+<area shape="rect" id="Node000150" href="$classllvm_1_1CleanupReturnInst.html" title=" " alt="" coords="522,745,685,771"/>
+<area shape="poly" id="edge24_Node000048_Node000150" title=" " alt="" coords="410,977,422,934,443,881,473,826,492,802,515,780,532,769,535,774,518,784,496,805,478,829,448,883,427,935,415,978"/>
+<area shape="rect" id="Node000151" href="$classllvm_1_1CmpInst.html" title="This class is the base class for the comparison instructions." alt="" coords="552,795,655,820"/>
+<area shape="poly" id="edge25_Node000048_Node000151" title=" " alt="" coords="414,977,429,943,450,903,479,863,515,829,550,813,552,818,518,834,483,867,455,906,433,946,419,979"/>
+<area shape="rect" id="Node000154" href="$classllvm_1_1ExtractElementInst.html" title="This instruction extracts a single (scalar) element from a VectorType value." alt="" coords="521,844,686,870"/>
+<area shape="poly" id="edge26_Node000048_Node000154" title=" " alt="" coords="420,978,459,927,485,901,515,879,537,868,539,873,518,883,489,905,463,931,425,981"/>
+<area shape="rect" id="Node000155" href="$classllvm_1_1FenceInst.html" title="An instruction for ordering other memory operations." alt="" coords="548,893,659,919"/>
+<area shape="poly" id="edge27_Node000048_Node000155" title=" " alt="" coords="432,980,470,953,515,928,546,916,548,921,517,933,473,958,436,985"/>
+<area shape="rect" id="Node000156" href="$classllvm_1_1FuncletPadInst.html" title=" " alt="" coords="533,943,674,968"/>
+<area shape="poly" id="edge28_Node000048_Node000156" title=" " alt="" coords="473,985,548,966,549,972,475,990"/>
+<area shape="rect" id="Node000159" href="$classllvm_1_1GetElementPtrInst.html" title="an instruction for type&#45;safe pointer arithmetic to access elements of arrays and structs" alt="" coords="523,992,684,1018"/>
+<area shape="poly" id="edge29_Node000048_Node000159" title=" " alt="" coords="477,1002,522,1002,522,1008,477,1008"/>
+<area shape="rect" id="Node000160" href="$classllvm_1_1IndirectBrInst.html" title="Indirect Branch Instruction." alt="" coords="538,1041,669,1067"/>
+<area shape="poly" id="edge30_Node000048_Node000160" title=" " alt="" coords="475,1019,549,1038,548,1043,473,1024"/>
+<area shape="rect" id="Node000161" href="$classllvm_1_1InsertElementInst.html" title="This instruction inserts a single (scalar) element into a VectorType value." alt="" coords="525,1091,682,1116"/>
+<area shape="poly" id="edge31_Node000048_Node000161" title=" " alt="" coords="436,1025,473,1052,517,1077,545,1088,543,1092,515,1082,470,1057,432,1029"/>
+<area shape="rect" id="Node000162" href="$classllvm_1_1InsertValueInst.html" title="This instruction inserts a struct field of array element value into an aggregate value." alt="" coords="533,1140,674,1166"/>
+<area shape="poly" id="edge32_Node000048_Node000162" title=" " alt="" coords="425,1029,463,1079,489,1105,518,1127,539,1137,537,1142,515,1131,485,1109,459,1082,420,1032"/>
+<area shape="rect" id="Node000163" href="$classllvm_1_1LandingPadInst.html" title="The landingpad instruction holds all of the information necessary to generate correct exception handl..." alt="" coords="532,1189,675,1215"/>
+<area shape="poly" id="edge33_Node000048_Node000163" title=" " alt="" coords="419,1030,433,1064,455,1103,483,1143,518,1176,536,1186,534,1191,515,1180,479,1146,450,1106,429,1066,414,1032"/>
+<area shape="rect" id="Node000164" href="$classllvm_1_1PHINode.html" title=" " alt="" coords="550,1239,657,1264"/>
+<area shape="poly" id="edge34_Node000048_Node000164" title=" " alt="" coords="415,1031,427,1074,448,1127,478,1180,496,1204,518,1225,533,1235,550,1242,548,1247,531,1240,515,1230,492,1208,473,1183,443,1129,422,1076,410,1033"/>
+<area shape="rect" id="Node000165" href="$classllvm_1_1ResumeInst.html" title="Resume the propagation of an exception." alt="" coords="541,1288,666,1314"/>
+<area shape="poly" id="edge35_Node000048_Node000165" title=" " alt="" coords="412,1032,422,1084,441,1149,472,1217,493,1248,518,1275,542,1289,540,1294,515,1279,489,1251,467,1220,436,1151,416,1085,407,1033"/>
+<area shape="rect" id="Node000166" href="$classllvm_1_1ReturnInst.html" title="Return a value (possibly void), from a function." alt="" coords="546,1337,661,1363"/>
+<area shape="poly" id="edge36_Node000048_Node000166" title=" " alt="" coords="410,1032,417,1093,434,1171,448,1213,466,1254,489,1291,518,1324,531,1334,547,1340,545,1345,529,1338,515,1328,485,1294,461,1256,443,1215,429,1173,412,1094,405,1033"/>
+<area shape="rect" id="Node000167" href="$classllvm_1_1SelectInst.html" title="This class represents the LLVM &#39;select&#39; instruction." alt="" coords="547,1387,660,1412"/>
+<area shape="poly" id="edge37_Node000048_Node000167" title=" " alt="" coords="409,1033,413,1102,428,1193,441,1242,461,1290,486,1335,518,1374,532,1384,548,1390,546,1395,529,1388,515,1377,481,1338,456,1292,436,1244,422,1195,407,1102,404,1033"/>
+<area shape="rect" id="Node000168" href="$classllvm_1_1ShuffleVectorInst.html" title="This instruction constructs a fixed permutation of two input vectors." alt="" coords="526,1436,681,1462"/>
+<area shape="poly" id="edge38_Node000048_Node000168" title=" " alt="" coords="413,1032,426,1121,449,1238,480,1350,498,1394,518,1423,532,1433,529,1438,514,1427,494,1396,475,1352,444,1239,421,1122,407,1033"/>
+<area shape="rect" id="Node000169" href="$classllvm_1_1StoreInst.html" title="An instruction for storing to memory." alt="" coords="550,1485,657,1511"/>
+<area shape="poly" id="edge39_Node000048_Node000169" title=" " alt="" coords="412,1032,424,1130,446,1263,460,1329,477,1390,497,1439,518,1472,533,1483,551,1490,549,1495,530,1488,514,1476,492,1442,472,1391,455,1331,441,1264,419,1131,407,1033"/>
+<area shape="rect" id="Node000170" href="$classllvm_1_1SwitchInst.html" title="Multiway switch." alt="" coords="546,1535,661,1560"/>
+<area shape="poly" id="edge40_Node000048_Node000170" title=" " alt="" coords="411,1032,422,1139,442,1286,457,1361,474,1429,495,1484,518,1522,531,1532,547,1539,545,1543,528,1536,514,1525,490,1487,469,1430,452,1362,437,1287,417,1140,406,1033"/>
+<area shape="rect" id="Node000171" href="$classllvm_1_1UnaryInstruction.html" title=" " alt="" coords="529,1584,678,1610"/>
+<area shape="poly" id="edge41_Node000048_Node000171" title=" " alt="" coords="411,1032,420,1148,439,1310,454,1393,471,1468,493,1530,505,1553,518,1571,531,1581,528,1586,514,1575,501,1556,488,1532,466,1469,448,1394,434,1311,415,1149,405,1032"/>
+<area shape="rect" id="Node000192" href="$classllvm_1_1UnreachableInst.html" title="This function has undefined behavior." alt="" coords="529,1633,678,1659"/>
+<area shape="poly" id="edge42_Node000048_Node000192" title=" " alt="" coords="410,1032,418,1158,436,1334,450,1425,469,1507,491,1575,504,1601,518,1620,531,1631,528,1635,514,1624,500,1603,486,1577,463,1509,445,1426,431,1335,413,1158,405,1033"/>
+<area shape="rect" id="Node000194" href="$classllvm_1_1ConcreteOperator.html" title=" " alt="" coords="525,1684,682,1739"/>
+<area shape="poly" id="edge44_Node000193_Node000194" title=" " alt="" coords="432,1807,470,1779,515,1749,536,1738,539,1742,518,1754,473,1783,435,1812"/>
+<area shape="rect" id="Node000196" href="$classllvm_1_1ConcreteOperator.html" title=" " alt="" coords="525,1764,682,1819"/>
+<area shape="poly" id="edge45_Node000193_Node000196" title=" " alt="" coords="471,1816,524,1805,525,1810,472,1821"/>
+<area shape="rect" id="Node000198" href="$classllvm_1_1ConcreteOperator.html" title=" " alt="" coords="525,1844,682,1899"/>
+<area shape="poly" id="edge46_Node000193_Node000198" title=" " alt="" coords="472,1842,525,1853,524,1858,471,1847"/>
+<area shape="rect" id="Node000200" href="$classllvm_1_1ConcreteOperator.html" title=" " alt="" coords="525,1924,682,1979"/>
+<area shape="poly" id="edge47_Node000193_Node000200" title=" " alt="" coords="435,1851,473,1880,518,1909,539,1921,536,1925,515,1914,470,1884,432,1856"/>
+<area shape="rect" id="Node000202" href="$classllvm_1_1ConcreteOperator.html" title=" " alt="" coords="525,2004,682,2059"/>
+<area shape="poly" id="edge48_Node000193_Node000202" title=" " alt="" coords="421,1857,460,1922,487,1958,518,1989,534,2001,531,2005,515,1994,483,1961,455,1925,417,1859"/>
+</map>
