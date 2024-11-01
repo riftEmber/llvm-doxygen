@@ -14,7 +14,7 @@ LLVM_VERSION=$1
 
 echo "Building LLVM doxygen documentation for version $LLVM_VERSION"
 
-git clone -b "llvmorg-$LLVM_VERSION.0.0" --depth=1 https://github.com/llvm/llvm-project.git llvm-project-$LLVM_VERSION
+git clone -b "llvmorg-$LLVM_VERSION" --depth=1 https://github.com/llvm/llvm-project.git llvm-project-$LLVM_VERSION
 cd llvm-project-$LLVM_VERSION
 
 cd llvm
