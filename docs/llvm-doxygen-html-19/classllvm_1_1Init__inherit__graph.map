@@ -1,0 +1,49 @@
+<map id="llvm::Init" name="llvm::Init">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,400,77,426"/>
+<area shape="rect" id="Node000002" href="$classllvm_1_1ArgumentInit.html" title=" " alt="" coords="125,351,252,376"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,394,147,374,148,379,91,399"/>
+<area shape="rect" id="Node000003" href="$classllvm_1_1TypedInit.html" title="This is the common superclass of types that have a specific, explicit type, stored in ValueTy." alt="" coords="135,400,242,426"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="91,410,135,410,135,416,91,416"/>
+<area shape="rect" id="Node000024" href="$classllvm_1_1UnsetInit.html" title="&#39;?&#39; &#45; Represents an uninitialized value." alt="" coords="135,449,242,475"/>
+<area shape="poly" id="edge23_Node000001_Node000024" title=" " alt="" coords="91,427,148,446,147,451,90,432"/>
+<area shape="rect" id="Node000004" href="$classllvm_1_1AnonymousNameInit.html" title="&quot;anonymous_n&quot; &#45; Represent an anonymous record name" alt="" coords="300,5,475,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="249,389,250,387,265,365,275,343,283,300,280,257,271,214,263,172,260,128,270,85,281,63,298,40,311,29,315,34,302,44,286,65,275,87,266,129,268,171,276,213,285,256,289,300,280,345,270,367,254,390,253,392"/>
+<area shape="rect" id="Node000005" href="$classllvm_1_1BitInit.html" title="&#39;true&#39;/&#39;false&#39; &#45; Represent a concrete initializer for a bit." alt="" coords="344,55,431,80"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="249,389,250,387,272,349,280,312,278,276,272,239,265,202,264,165,273,128,298,90,319,75,343,67,344,72,321,80,302,93,278,130,269,166,270,202,277,238,283,275,285,313,277,351,254,390,253,392"/>
+<area shape="rect" id="Node000006" href="$classllvm_1_1BitsInit.html" title="&#39;{ a, b, c }&#39; &#45; Represents an initializer for a BitsRecTy value." alt="" coords="341,104,435,130"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="249,389,250,387,269,356,277,325,276,294,272,264,268,233,268,202,277,171,298,139,317,125,339,118,341,123,320,130,302,143,281,173,273,203,273,233,277,263,281,294,282,326,274,358,254,390,253,392"/>
+<area shape="rect" id="Node000007" href="$classllvm_1_1CondOpInit.html" title="!cond(condition_1: value1, ... , condition_n: value) Selects the first value for which condition is t..." alt="" coords="328,153,447,179"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="248,389,250,387,266,362,273,338,274,313,272,289,270,264,272,239,280,213,298,188,311,178,326,171,328,176,314,183,302,192,285,216,277,240,276,264,277,288,280,313,279,339,271,364,254,390,252,393"/>
+<area shape="rect" id="Node000008" href="$classllvm_1_1DagInit.html" title="(v a, b) &#45; Represent a DAG tree value." alt="" coords="340,203,435,228"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="248,389,250,387,263,369,270,350,272,313,275,275,283,256,298,238,317,225,339,217,340,222,320,230,302,241,288,259,281,277,278,313,275,351,268,371,254,391,252,393"/>
+<area shape="rect" id="Node000009" href="$classllvm_1_1DefInit.html" title="AL &#45; Represent a reference to a &#39;def&#39; in the description." alt="" coords="342,252,434,278"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="247,390,250,387,261,375,267,363,273,338,279,312,286,299,298,287,318,275,340,267,342,272,321,279,302,291,291,302,284,314,278,339,272,364,265,378,254,391,250,394"/>
+<area shape="rect" id="Node000010" href="$classllvm_1_1ExistsOpInit.html" title="!exists&lt;type&gt;(expr) &#45; Dynamically determine if a record of type named expr exists." alt="" coords="325,301,450,327"/>
+<area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="243,391,250,387,265,374,274,361,283,349,299,336,324,324,326,329,301,340,287,352,278,365,269,378,254,391,246,396"/>
+<area shape="rect" id="Node000011" href="$classllvm_1_1FieldInit.html" title="X.Y &#45; Represent a reference to a subfield of a variable." alt="" coords="338,351,437,376"/>
+<area shape="poly" id="edge10_Node000003_Node000011" title=" " alt="" coords="255,394,337,373,338,378,257,399"/>
+<area shape="rect" id="Node000012" href="$classllvm_1_1FoldOpInit.html" title="!foldl (a, b, expr, start, lst) &#45; Fold over a list." alt="" coords="331,400,444,426"/>
+<area shape="poly" id="edge11_Node000003_Node000012" title=" " alt="" coords="256,410,330,410,330,416,256,416"/>
+<area shape="rect" id="Node000013" href="$classllvm_1_1IntInit.html" title="&#39;7&#39; &#45; Represent an initialization by a literal integer value." alt="" coords="345,449,431,475"/>
+<area shape="poly" id="edge12_Node000003_Node000013" title=" " alt="" coords="256,427,344,449,343,454,255,432"/>
+<area shape="rect" id="Node000014" href="$classllvm_1_1IsAOpInit.html" title="!isa&lt;type&gt;(expr) &#45; Dynamically determine the type of an expression." alt="" coords="334,499,442,524"/>
+<area shape="poly" id="edge13_Node000003_Node000014" title=" " alt="" coords="246,430,254,435,269,448,278,461,287,473,301,485,334,499,332,504,299,490,283,477,274,464,265,452,250,439,243,435"/>
+<area shape="rect" id="Node000015" href="$classllvm_1_1ListInit.html" title="[AL, AH, CL] &#45; Represent a list of defs" alt="" coords="342,548,434,574"/>
+<area shape="poly" id="edge14_Node000003_Node000015" title=" " alt="" coords="250,432,254,435,265,448,272,461,278,487,284,512,291,523,302,535,321,546,342,553,340,558,318,551,298,539,286,526,279,514,273,488,267,463,261,451,250,439,247,436"/>
+<area shape="rect" id="Node000016" href="$classllvm_1_1OpInit.html" title="Base class for operators." alt="" coords="344,597,432,623"/>
+<area shape="poly" id="edge15_Node000003_Node000016" title=" " alt="" coords="252,433,254,435,268,455,275,474,278,512,281,549,288,567,302,584,321,597,344,604,342,609,319,602,298,588,283,569,275,550,272,513,270,475,263,457,250,439,248,436"/>
+<area shape="rect" id="Node000020" href="$classllvm_1_1StringInit.html" title="&quot;foo&quot; &#45; Represent an initialization by a string value." alt="" coords="335,647,440,672"/>
+<area shape="poly" id="edge19_Node000003_Node000020" title=" " alt="" coords="252,433,254,435,271,461,279,487,280,513,277,537,276,562,277,586,285,610,302,634,317,645,335,652,334,657,315,650,298,637,280,612,272,587,270,562,272,537,274,512,273,488,266,463,250,438,248,437"/>
+<area shape="rect" id="Node000021" href="$classllvm_1_1VarBitInit.html" title="Opcode{0} &#45; Represent access to one bit of a variable or field." alt="" coords="335,696,441,722"/>
+<area shape="poly" id="edge20_Node000003_Node000021" title=" " alt="" coords="253,434,254,435,274,468,282,500,281,532,277,563,273,593,273,623,281,653,302,683,317,694,335,702,333,707,314,699,298,687,277,655,268,624,268,593,272,562,276,531,277,501,269,470,250,438,249,437"/>
+<area shape="rect" id="Node000022" href="$classllvm_1_1VarDefInit.html" title="classname&lt;targs...&gt; &#45; Represent an uninstantiated anonymous class instantiation." alt="" coords="332,745,443,771"/>
+<area shape="poly" id="edge21_Node000003_Node000022" title=" " alt="" coords="253,434,254,435,277,474,285,513,283,551,277,588,270,624,269,660,278,696,302,732,316,743,332,750,330,755,313,748,298,736,273,698,264,661,265,623,272,587,278,550,280,513,272,476,250,438,249,437"/>
+<area shape="rect" id="Node000023" href="$classllvm_1_1VarInit.html" title="&#39;Opcode&#39; &#45; Represent a reference to an entire variable object." alt="" coords="343,795,433,820"/>
+<area shape="poly" id="edge22_Node000003_Node000023" title=" " alt="" coords="253,434,254,435,270,458,280,481,289,526,285,570,276,612,268,655,266,697,275,739,286,760,302,782,320,795,343,802,341,807,318,800,298,785,281,763,270,741,260,697,263,654,271,611,280,569,283,526,275,483,265,461,250,438,249,437"/>
+<area shape="rect" id="Node000017" href="$classllvm_1_1BinOpInit.html" title="!op (X, Y) &#45; Combine two inits." alt="" coords="526,548,634,574"/>
+<area shape="poly" id="edge16_Node000016_Node000017" title=" " alt="" coords="446,593,526,572,528,577,447,598"/>
+<area shape="rect" id="Node000018" href="$classllvm_1_1TernOpInit.html" title="!op (X, Y, Z) &#45; Combine two inits." alt="" coords="523,597,637,623"/>
+<area shape="poly" id="edge17_Node000016_Node000018" title=" " alt="" coords="447,608,523,608,523,613,447,613"/>
+<area shape="rect" id="Node000019" href="$classllvm_1_1UnOpInit.html" title="!op (X) &#45; Transform an init." alt="" coords="527,647,633,672"/>
+<area shape="poly" id="edge18_Node000016_Node000019" title=" " alt="" coords="447,622,528,643,526,649,446,628"/>
+</map>
